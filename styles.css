@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+}
+body {
+    background-color: #F0F0F0;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.sidenav {
+    height: 100%;
+    width: 15%; 
+    position: fixed;
+    background-color: #181818;
+    padding-top: 20px;
+}
+main {
+    margin-left: 15%;
+}
+figure {
+    margin: 0;
+}
+.centerAnchor {
+    padding-top: 150%;
+}
+
+.centerAnchor a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.centerAnchor a.selected {
+    text-decoration-color: white;
+}
+.centerAnchor a.unselected {
+    text-decoration: none; 
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding-top: 21%;
+}
+.hero p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 18% 0 -1%;
+}
+.hero  {
+    background-image: url(pictures/russia2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    margin:0px;
+    height: 100vh;
+    text-align: center;
+}
+
+.arrow img {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.country img {
+    display: block;
+    width: 600px;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.putin img {
+    display: block;
+    width: 300px;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.caption1 p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.5;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+.container2, .caption2 {
+    display: flex;
+}
+.tigerImg img, .mountainImg img {
+    width: 615px;
+
+}
+.tigerCaption, .mountainCaption {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.tigerCaption p , .mountainCaption p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+.container3, .caption3 {
+    display: flex;
+}
+.riverImg img, .lakeImg img {
+    width: 615px;
+}
+.riverCaption p, .lakeCaption p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+.riverCaption, .lakeCaption {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hero2 {
+    background-image: url(pictures/restaurant.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    margin:0px;
+    height: 100vh;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 6rem;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding-top: 27%;
+}
+.cuisine {
+    padding: 5%;
+}
+.cuisine p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.5;
+}
+.container4, .caption4{
+    display: flex;
+}
+.caption4 {
+    padding: 3% 0 1%;
+}
+.pelmeniImg img, .gallerycafeImg img {
+    width: 615px;
+}
+.pelmeniCaption, .gallerycafeCaption {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pelmeniCaption p, .gallerycafeCaption p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+.container5, .caption5 {
+    display: flex;
+}
+.caption5 {
+    padding: 3% 0 1%;
+}
+.borschtImg img, .vannaImg img  {
+    width: 615px;
+}
+.borschtCaption, .vannaCaption {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.borschtCaption p, .vannaCaption p {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
